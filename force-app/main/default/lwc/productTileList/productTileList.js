@@ -14,7 +14,7 @@ export default class ProductTileList extends LightningElement {
 
     @wire(CurrentPageReference) pageRef;
 
-    @wire(getProducts, { filters: '$filters', pageNumber: '$pageNumber' })
+    @wire(getProducts, [])
     products;
 
     connectedCallback() {
