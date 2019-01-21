@@ -60,12 +60,13 @@ describe('c-product-filter', () => {
                 is: ProductFilter,
             });
             document.body.appendChild(element);
+
             const slider = element.shadowRoot.querySelector('lightning-slider');
-            slider.value = expectedPrice;
+            slider.value = 50;
             slider.dispatchEvent(new CustomEvent('change'));
-            // Run timers eg setTimeout()
+
             jest.runAllTimers();
-            // Only verify the relevant params
+
             expect(fireEvent).toHaveBeenCalledWith(
                 undefined,
                 'filterChange',

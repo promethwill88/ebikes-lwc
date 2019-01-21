@@ -11,7 +11,7 @@
     "namespace": "",
     "sourceApiVersion": "45.0",
     "packageAliases": {
-        "EBikesLWC": "0HoB0000000GmiYKAS",
-        "EBikesLWC@1.0.0-2": "04tB0000000YGcqIAG"
+        "eBikesLWC": "0HoB0000000GmiYKAS",
+        "eBikesLWC@1.0.0-2": "04tB0000000YGcqIAG"
     }
 }
